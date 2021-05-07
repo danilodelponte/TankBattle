@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1520594937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2163544205877359208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7010bae5e6813937917061c16fc2350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DestroyedTankPrefab: {fileID: 3614930459815934062, guid: b24c5286790fb493a9e7009f0f4d6c6a,
+    type: 3}
+--- !u!114 &1520594945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2163544205877359208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04020b1c9c6a13297b900b4e887096c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  distanceToTarget: Infinity
+  minShootingDistance: 20
+  maxShootingDistance: 300
+  chasingDistance: 60
+  chasing: 0
+--- !u!1001 &3183099252368591366
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3614930458972109532, guid: 85fbf6aab2d13b0a3975eef578bbf71d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a11efabb61c204752847150ec965d5ff, type: 2}
+    - target: {fileID: 3614930458972109532, guid: 85fbf6aab2d13b0a3975eef578bbf71d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: a11efabb61c204752847150ec965d5ff, type: 2}
+    - target: {fileID: 3614930459360929673, guid: 85fbf6aab2d13b0a3975eef578bbf71d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a11efabb61c204752847150ec965d5ff, type: 2}
+    - target: {fileID: 3614930459512069038, guid: 85fbf6aab2d13b0a3975eef578bbf71d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a11efabb61c204752847150ec965d5ff, type: 2}
+    - target: {fileID: 3614930459815934048, guid: 85fbf6aab2d13b0a3975eef578bbf71d,
+        type: 3}
+      propertyPath: shootingDelay
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3614930459815934054, guid: 85fbf6aab2d13b0a3975eef578bbf71d,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 49.74147
+      objectReference: {fileID: 0}
+    - target: {fileID: 3614930459815934062, guid: 85fbf6aab2d13b0a3975eef578bbf71d,
+        type: 3}
+      propertyPath: m_Name
+      value: EnemyTank Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3614930459815934063, guid: 85fbf6aab2d13b0a3975eef578bbf71d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3614930459815934063, guid: 85fbf6aab2d13b0a3975eef578bbf71d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3614930459815934063, guid: 85fbf6aab2d13b0a3975eef578bbf71d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3614930459815934063, guid: 85fbf6aab2d13b0a3975eef578bbf71d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3614930459997370813, guid: 85fbf6aab2d13b0a3975eef578bbf71d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a11efabb61c204752847150ec965d5ff, type: 2}
+    - target: {fileID: 3614930460990241976, guid: 85fbf6aab2d13b0a3975eef578bbf71d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a11efabb61c204752847150ec965d5ff, type: 2}
+    m_RemovedComponents:
+    - {fileID: 7934369363312580877, guid: 85fbf6aab2d13b0a3975eef578bbf71d, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 85fbf6aab2d13b0a3975eef578bbf71d, type: 3}
+--- !u!1 &2163544205877359208 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3614930459815934062, guid: 85fbf6aab2d13b0a3975eef578bbf71d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3183099252368591366}
+  m_PrefabAsset: {fileID: 0}
